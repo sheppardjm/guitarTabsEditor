@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0c0e12;
+  --surface: #14171d;
+  --surface-2: #1b1f27;
+  --border: #2a2f3a;
+  --foreground: #e8e6e1;
+  --muted: #8b93a1;
+  --accent: #f5b942; /* chords */
+  --accent-2: #5dd39e; /* actions / play */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border-line: var(--border);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* --- Tab content rendering --- */
+
+.tab-content {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.tab-content .tab-line {
+  white-space: pre;
+  overflow-x: auto;
+  min-height: 1.5em;
+}
+
+.tab-content .chord {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.tab-content .section-header {
+  color: var(--accent-2);
+  font-weight: 700;
+  margin-top: 1.25em;
+  margin-bottom: 0.25em;
+  letter-spacing: 0.02em;
+}
+
+.tab-content .tab-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 0.5rem 0.75rem;
+  margin: 0.5rem 0;
+  overflow-x: auto;
+}
+
+.tab-content .tab-block .tab-line {
+  overflow-x: visible;
+}

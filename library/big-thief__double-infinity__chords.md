@@ -1,0 +1,125 @@
+---
+title: Double Infinity
+artist: Big Thief
+type: Chords
+capo: null
+tuning: E A D G B E
+bpm: null
+durationSec: 210
+scrollAdjust: 1
+sourceUrl: 'https://tabs.ultimate-guitar.com/tab/big-thief/double-infinity-chords-5937899'
+addedAt: '2026-08-19'
+status: ok
+---
+
+[Intro]
+[ch]G[/ch] [ch]G[/ch] [ch]G[/ch]   [ch]G[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]G[/ch]   [ch]G[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+
+
+[Verse 1]
+[tab][ch]G[/ch]
+In the arms of the one I love[/tab]
+[tab][ch]Em7[/ch]           [ch]C[/ch]
+ Still seeing pictures of[/tab]
+[tab] [ch]G/B[/ch]
+Another from the future or the past[/tab]
+[tab][ch]Em7[/ch]             [ch]C[/ch]
+ What's lost or waiting[/tab]
+[tab] [ch]G[/ch]
+Troubled mind let me rest[/tab]
+[tab]   [ch]Em7[/ch]              [ch]C[/ch]
+My life is full, my heart is blessed[/tab]
+[tab]     [ch]G/B[/ch]
+And still you put me to the test[/tab]
+[tab]     [ch]Em7[/ch]         [ch]C[/ch]
+Of losing and of gaining[/tab]
+[tab][ch]G[/ch]
+Angel come, take my hand[/tab]
+[tab][ch]Em7[/ch]            [ch]C[/ch]
+Hold me close, let me land[/tab]
+[tab][ch]G/B[/ch]
+On my feet in the sand[/tab]
+[tab]         [ch]Em7[/ch]             [ch]C[/ch]
+With the winds around me raging[/tab]
+[tab]     [ch]G[/ch]
+I've been too long behind these walls[/tab]
+[tab]  [ch]Em7[/ch]               [ch]C[/ch]
+Inside this house ignoring calls[/tab]
+[tab]    [ch]G/B[/ch]
+And time moves like the water falls[/tab]
+[tab]    [ch]Em7[/ch]         [ch]C[/ch]
+Unrelenting, cascading[/tab]
+[tab]     [ch]G[/ch]
+The trees on fire, the rivers flood[/tab]
+[tab]    [ch]Em7[/ch]               [ch]C[/ch]
+And all the banks are soaked in blood[/tab]
+[tab]  [ch]G/B[/ch]                               [ch]Em7[/ch]
+A mirror makes a portrait draws the shadow[/tab]
+[tab]        [ch]C[/ch]
+And the shading[/tab]
+[tab]    [ch]G[/ch]
+The butterflies on the summer breeze[/tab]
+[tab]    [ch]Em7[/ch]          [ch]C[/ch]
+The wildflowers sway with ease[/tab]
+[tab]   [ch]G/B[/ch]
+At the bridge of two infinities[/tab]
+[tab]            [ch]Em7[/ch]                [ch]C[/ch]
+What's been lost and what lies waiting[/tab]
+
+
+[Instrumental]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+
+
+[Verse 2]
+[tab][ch]G[/ch]
+Beauty speak to me[/tab]
+[tab][ch]Em7[/ch]              [ch]C[/ch]
+Let me know you, let me see[/tab]
+[tab] [ch]G/B[/ch]
+Myself inside your mystery[/tab]
+[tab]             [ch]Em7[/ch]            [ch]C[/ch]
+Through the crystal cage of aging[/tab]
+[tab][ch]G[/ch]
+Longing to go back again[/tab]
+[tab]   [ch]Em7[/ch]             [ch]C[/ch]
+To be someone I've never been[/tab]
+[tab]  [ch]G/B[/ch]
+I echo and I seek to win[/tab]
+[tab]     [ch]Em7[/ch]          [ch]C[/ch]
+Mourning and celebrating[/tab]
+[tab][ch]G[/ch]
+Fastening so desperately to[/tab]
+[tab][ch]Em7[/ch]           [ch]C[/ch]
+Vision and to memory[/tab]
+[tab] [ch]G/B[/ch]
+At the bridge of two infinities[/tab]
+[tab]        [ch]Em7[/ch]              [ch]C[/ch]
+What is forming, what is fading[/tab]
+[tab][ch]G[/ch]                             [ch]Em7[/ch]
+Deep within the center of the picture[/tab]
+[tab]       [ch]C[/ch]
+Is the one I love[/tab]
+[tab]    [ch]G/B[/ch]
+The eye behind the essence[/tab]
+[tab]         [ch]Em7[/ch]         [ch]C[/ch]
+Still, unmovable, unchanging[/tab]
+
+
+[Instrumental]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+
+
+[Outro]
+[tab]    [ch]G[/ch]
+The eye behind the essence[/tab]
+[tab]         [ch]Em7[/ch]         [ch]C[/ch]
+Still, unmovable, unchanging[/tab]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
+[ch]G[/ch] [ch]G[/ch] [ch]Em7[/ch] [ch]C[/ch]
