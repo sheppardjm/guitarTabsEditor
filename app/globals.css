@@ -52,6 +52,12 @@ body {
   font-weight: 700;
   cursor: pointer;
   border-radius: 3px;
+  /* Keep Android Chrome's tap-to-search / text selection from
+     swallowing taps — chords are buttons, not selectable text. */
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .tab-content .chord:hover,

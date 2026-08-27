@@ -11,6 +11,17 @@ export default function ServiceWorkerRegistration() {
     navigator.serviceWorker
       .register("/sw.js", { scope: "/", updateViaCache: "none" })
       .catch(() => {});
+    // When an updated service worker takes over (new deploy finished
+    // caching), reload once so the page runs the new version. The guard
+    // skips the initial claim on a first visit.
+    let hadController = !!navigator.serviceWorker.controller;
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+      if (!hadController) {
+        hadController = true;
+        return;
+      }
+      window.location.reload();
+    });
     // Ask Chrome not to evict the cached library under storage pressure;
     // granted silently once the PWA is installed.
     navigator.storage?.persist?.().catch(() => {});
