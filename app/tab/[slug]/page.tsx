@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { getTab } from "@/lib/library";
+import { getTab, listTabs } from "@/lib/library";
 import TabContent from "@/components/TabContent";
 import TabPlayer from "@/components/TabPlayer";
 
-export const dynamic = "force-dynamic";
+const READONLY = process.env.NEXT_PUBLIC_READONLY === "1";
+
+export function generateStaticParams() {
+  return listTabs().map(({ slug }) => ({ slug }));
+}
 
 function fmtDuration(sec: number): string {
   const m = Math.floor(sec / 60);
@@ -31,12 +35,14 @@ export default async function TabPage({
           <h1 className="mt-1 text-2xl font-bold">{tab.title}</h1>
           <div className="text-muted">{tab.artist}</div>
         </div>
-        <Link
-          href={`/tab/${tab.slug}/edit`}
-          className="rounded-md border border-border-line bg-surface px-4 py-2 text-sm font-semibold hover:bg-surface-2"
-        >
-          Edit
-        </Link>
+        {READONLY ? null : (
+          <Link
+            href={`/tab/${tab.slug}/edit`}
+            className="rounded-md border border-border-line bg-surface px-4 py-2 text-sm font-semibold hover:bg-surface-2"
+          >
+            Edit
+          </Link>
+        )}
       </div>
 
       <div className="mb-6 flex flex-wrap gap-x-5 gap-y-1 text-sm text-muted">
@@ -75,16 +81,18 @@ export default async function TabPage({
                 className="text-accent underline underline-offset-2"
               >
                 Open the original page
-              </a>{" "}
-              and paste the tab in the editor.
+              </a>
+              {READONLY ? null : <> and paste the tab in the editor.</>}
             </p>
           ) : null}
-          <Link
-            href={`/tab/${tab.slug}/edit`}
-            className="inline-block rounded-md bg-accent-2 px-4 py-2 text-sm font-semibold text-background"
-          >
-            Paste content
-          </Link>
+          {READONLY ? null : (
+            <Link
+              href={`/tab/${tab.slug}/edit`}
+              className="inline-block rounded-md bg-accent-2 px-4 py-2 text-sm font-semibold text-background"
+            >
+              Paste content
+            </Link>
+          )}
         </div>
       ) : (
         <TabPlayer

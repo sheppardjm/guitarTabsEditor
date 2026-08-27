@@ -7,10 +7,10 @@ import {
   useState,
   type ReactNode,
 } from "react";
-import { updateScrollAdjustAction } from "@/app/actions";
 
 // Autoscroll: the page scrolls its full height over durationSec seconds,
-// scaled by an adjustable multiplier that is persisted per song.
+// scaled by an adjustable multiplier persisted per song in localStorage
+// (seeded from the frontmatter scrollAdjust value for fresh browsers).
 
 export default function TabPlayer({
   slug,
@@ -39,7 +39,22 @@ export default function TabPlayer({
     const value = adjustRef.current;
     if (Math.abs(value - savedAdjustRef.current) < 0.001) return;
     savedAdjustRef.current = value;
-    void updateScrollAdjustAction(slug, value);
+    try {
+      localStorage.setItem(`scrollAdjust:${slug}`, String(value));
+    } catch {}
+  }, [slug]);
+
+  useEffect(() => {
+    try {
+      const stored = localStorage.getItem(`scrollAdjust:${slug}`);
+      if (stored !== null) {
+        const v = Number(stored);
+        if (Number.isFinite(v) && v >= 0.25 && v <= 4) {
+          savedAdjustRef.current = v;
+          setAdjust(v);
+        }
+      }
+    } catch {}
   }, [slug]);
 
   const stopScrolling = useCallback(() => {

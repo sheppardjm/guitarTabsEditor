@@ -60,17 +60,6 @@ export async function deleteTabAction(formData: FormData): Promise<void> {
   redirect("/");
 }
 
-export async function updateScrollAdjustAction(
-  slug: string,
-  scrollAdjust: number
-): Promise<void> {
-  const tab = getTab(slug);
-  if (!tab || !Number.isFinite(scrollAdjust)) return;
-  const clamped = Math.min(4, Math.max(0.25, scrollAdjust));
-  const { slug: _slug, content, ...meta } = tab;
-  writeTab(slug, { ...meta, scrollAdjust: Number(clamped.toFixed(3)) }, content);
-}
-
 export type FetchFromUrlResult =
   | { ok: true; tab: ParsedTab }
   | { ok: false; error: string };

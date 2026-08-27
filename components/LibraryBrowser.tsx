@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
+import OfflineStatus from "@/components/OfflineStatus";
 import type { TabEntry } from "@/lib/library";
 
 type TabListItem = Omit<TabEntry, "content">;
@@ -39,12 +40,15 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
         <h1 className="text-2xl font-bold tracking-tight">
           Tabs <span className="text-muted text-base font-normal">({tabs.length})</span>
         </h1>
-        <Link
-          href="/new"
-          className="rounded-md bg-accent-2 px-4 py-2 text-sm font-semibold text-background hover:opacity-90"
-        >
-          + Add tab
-        </Link>
+        <OfflineStatus />
+        {process.env.NEXT_PUBLIC_READONLY === "1" ? null : (
+          <Link
+            href="/new"
+            className="rounded-md bg-accent-2 px-4 py-2 text-sm font-semibold text-background hover:opacity-90"
+          >
+            + Add tab
+          </Link>
+        )}
       </div>
 
       <div className="mb-6 flex gap-3">
