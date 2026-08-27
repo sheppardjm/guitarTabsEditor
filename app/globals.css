@@ -50,6 +50,14 @@ body {
 .tab-content .chord {
   color: var(--accent);
   font-weight: 700;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.tab-content .chord:hover,
+.tab-content .chord:focus-visible {
+  background: color-mix(in srgb, var(--accent) 18%, transparent);
+  outline: none;
 }
 
 .tab-content .section-header {
