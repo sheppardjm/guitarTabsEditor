@@ -1,4 +1,4 @@
-import { detectTuningFromContent } from "./tuning";
+import { detectTuningFromContent } from "./tuning.ts";
 // Parsers for tab sources: Ultimate Guitar (js-store JSON) and FolkChords
 // (WordPress entry-content), plus a fetch helper with a browser user agent.
 
