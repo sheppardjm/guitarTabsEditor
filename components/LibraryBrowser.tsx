@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Link from "next/link";
 import OfflineStatus from "@/components/OfflineStatus";
 import type { TabEntry } from "@/lib/library";
+import { tuningLabel } from "@/lib/tuning";
 
 type TabListItem = Omit<TabEntry, "content">;
 type SortKey = "artist" | "title" | "recent";
@@ -11,6 +12,20 @@ type SortKey = "artist" | "title" | "recent";
 export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
   const [query, setQuery] = useState("");
   const [sort, setSort] = useState<SortKey>("artist");
+  // "" = any tuning, "alt" = anything non-standard, otherwise a specific label
+  const [tuningFilter, setTuningFilter] = useState("");
+
+  const labels = useMemo(() => {
+    const m = new Map<string, string | null>();
+    for (const t of tabs) m.set(t.slug, tuningLabel(t.tuning));
+    return m;
+  }, [tabs]);
+
+  const tuningOptions = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const l of labels.values()) if (l) counts.set(l, (counts.get(l) ?? 0) + 1);
+    return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+  }, [labels]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -20,6 +35,12 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
         (t) =>
           t.title.toLowerCase().includes(q) || t.artist.toLowerCase().includes(q)
       );
+    }
+    if (tuningFilter) {
+      list = list.filter((t) => {
+        const l = labels.get(t.slug);
+        return tuningFilter === "alt" ? l !== null : l === tuningFilter;
+      });
     }
     const sorted = [...list];
     if (sort === "artist") {
@@ -32,7 +53,7 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
       sorted.sort((a, b) => b.addedAt.localeCompare(a.addedAt));
     }
     return sorted;
-  }, [tabs, query, sort]);
+  }, [tabs, query, sort, tuningFilter, labels]);
 
   return (
     <main className="mx-auto w-full max-w-4xl px-4 py-8">
@@ -69,6 +90,21 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
           <option value="title">By title</option>
           <option value="recent">Recently added</option>
         </select>
+        {tuningOptions.length > 0 ? (
+          <select
+            value={tuningFilter}
+            onChange={(e) => setTuningFilter(e.target.value)}
+            className="rounded-md border border-border-line bg-surface px-2 py-2 text-sm"
+          >
+            <option value="">Any tuning</option>
+            <option value="alt">Alt tunings</option>
+            {tuningOptions.map(([label, n]) => (
+              <option key={label} value={label}>
+                {label} ({n})
+              </option>
+            ))}
+          </select>
+        ) : null}
       </div>
 
       <ul className="divide-y divide-border-line rounded-lg border border-border-line bg-surface">
@@ -84,6 +120,11 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
               </div>
               {t.capo ? (
                 <span className="shrink-0 text-xs text-muted">capo {t.capo}</span>
+              ) : null}
+              {labels.get(t.slug) ? (
+                <span className="shrink-0 rounded bg-sky-400/15 px-2 py-0.5 text-xs font-semibold text-sky-400">
+                  {labels.get(t.slug)}
+                </span>
               ) : null}
               <span
                 className={`shrink-0 rounded px-2 py-0.5 text-xs font-semibold ${
