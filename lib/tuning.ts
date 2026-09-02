@@ -57,3 +57,33 @@ export function tuningLabel(raw: string | null | undefined): string | null {
   }
   return notes.map((n) => NOTE_NAMES[n]).join("");
 }
+
+const HALF_DOWN = "Eb Ab Db Gb Bb Eb";
+const WHOLE_DOWN = "D G C F A D";
+
+/**
+ * Best-effort sniff of a tuning declared in the tab body (used when the
+ * source site provides no tuning metadata). Only looks at the header area
+ * before the first chord/tab line and only returns a tuning when the text
+ * unambiguously says the guitar itself is retuned.
+ */
+export function detectTuningFromContent(content: string): string | null {
+  const head = content.split("\n").slice(0, 40).join("\n");
+  for (const line of head.split("\n")) {
+    const l = line.replace(/\[\/?ch\]/g, "").trim();
+    if (!l) continue;
+    if (/^tun(ing|ed)\b/i.test(l)) {
+      const notes = l.replace(/^tun(ing|ed)\s*:?\s*/i, "").match(/\b[A-G](?:#|b|♭|♯)?(?![A-Za-z])/g);
+      if (notes && notes.length === 6) return notes.join(" ");
+      if (/standard/i.test(l)) return null;
+      if (/(half|1\/2|½)\s*step\s*down|down\s*(a\s*)?(half|1\/2|½)\s*step/i.test(l)) return HALF_DOWN;
+      if (/(whole|full|1)\s*step\s*down|down\s*(a\s*)?(whole|full)\s*step/i.test(l)) return WHOLE_DOWN;
+      if (/drop\s*d\b/i.test(l)) return "D A D G B E";
+    }
+    if (/^(tuned|played|the song is|this song is( played)?)\b.*\b(in|tuned)?\s*(a\s*)?(half|1\/2|½)\s*step( down)?/i.test(l)) return HALF_DOWN;
+    if (/^(tuned|played)\b.*\b(whole|full)\s*step\s*down/i.test(l)) return WHOLE_DOWN;
+    if (/^(standard\s+)?d\s+(standard\s+)?tuning$/i.test(l)) return WHOLE_DOWN;
+    if (/^drop\s*d(\s*tuning)?$/i.test(l)) return "D A D G B E";
+  }
+  return null;
+}

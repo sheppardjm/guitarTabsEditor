@@ -1,3 +1,4 @@
+import { detectTuningFromContent } from "./tuning";
 // Parsers for tab sources: Ultimate Guitar (js-store JSON) and FolkChords
 // (WordPress entry-content), plus a fetch helper with a browser user agent.
 
@@ -54,6 +55,9 @@ export function parseUgHtml(html: string): ParsedTab | null {
         ? parseInt(capoRaw, 10)
         : null;
 
+  const body = content.replace(/\r\n/g, "\n").trim() + "\n";
+  if (!tuning) tuning = detectTuningFromContent(body);
+
   const rawType = String(tab.type ?? "");
   return {
     title: String(tab.song_name ?? "Untitled"),
@@ -61,7 +65,7 @@ export function parseUgHtml(html: string): ParsedTab | null {
     type: rawType.toLowerCase().startsWith("chord") ? "Chords" : "Tab",
     capo,
     tuning,
-    content: content.replace(/\r\n/g, "\n").trim() + "\n",
+    content: body,
   };
 }
 
@@ -108,7 +112,14 @@ export function parseFolkChordsHtml(html: string, url: string): ParsedTab | null
   if (!text) return null;
 
   void url;
-  return { title, artist, type: "Chords", capo: null, tuning: null, content: text + "\n" };
+  return {
+    title,
+    artist,
+    type: "Chords",
+    capo: null,
+    tuning: detectTuningFromContent(text),
+    content: text + "\n",
+  };
 }
 
 export async function fetchTabFromUrl(url: string): Promise<ParsedTab | null> {

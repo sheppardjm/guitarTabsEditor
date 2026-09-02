@@ -3,7 +3,7 @@ title: Theater
 artist: Middle Brother
 type: Chords
 capo: null
-tuning: null
+tuning: Eb Ab Db Gb Bb Eb
 bpm: null
 durationSec: 210
 scrollAdjust: 1

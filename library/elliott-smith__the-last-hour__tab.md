@@ -3,7 +3,7 @@ title: The Last Hour
 artist: Elliott Smith
 type: Tab
 capo: null
-tuning: null
+tuning: D G C F A D
 bpm: null
 durationSec: 210
 scrollAdjust: 1
