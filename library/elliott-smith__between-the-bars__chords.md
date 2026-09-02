@@ -2,8 +2,8 @@
 title: Between The Bars
 artist: Elliott Smith
 type: Chords
-capo: null
-tuning: D G C F A D
+capo: 3
+tuning: E A D G B E
 bpm: null
 durationSec: 210
 scrollAdjust: 1

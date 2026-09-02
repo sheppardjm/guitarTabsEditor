@@ -3,7 +3,7 @@ title: Plainclothes Man
 artist: Elliott Smith
 type: Chords
 capo: null
-tuning: E A D G B E
+tuning: Eb Ab Db Gb Bb Eb
 bpm: null
 durationSec: 210
 scrollAdjust: 1
