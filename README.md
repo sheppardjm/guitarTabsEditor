@@ -65,3 +65,26 @@ npm run import
 
 Pages that fail to fetch/parse become `status: stub` entries that keep the
 source link so you can paste the content manually.
+
+After a parser fix, re-import entries from one site in place (keeps `addedAt`,
+`bpm` and the saved scroll multiplier):
+
+```bash
+node scripts/import-bookmarks.ts --refetch folkchords.com
+```
+
+### FolkChords chord glyphs
+
+FolkChords draws chord names as SVG outlines instead of text. `lib/folkchords.ts`
+decodes them with a table of known character outlines in
+`lib/folkchordsGlyphs.ts` and lays the chords out above the lyrics in the
+Ultimate Guitar style. If a chord shows a `?`, the site used a character the
+table does not know yet: run
+
+```bash
+node scripts/folkchords-glyphs.ts --sitemap
+```
+
+which scans every song on the site (cached under `.folkchords-cache/`) and
+writes `.folkchords-cache/unknown-glyphs.html`; open it, read off each glyph,
+and add the printed line to `GLYPH_TABLE` with the right character.

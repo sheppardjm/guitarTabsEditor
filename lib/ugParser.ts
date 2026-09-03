@@ -1,6 +1,7 @@
+import { parseFolkChordsHtml } from "./folkchords.ts";
 import { detectTuningFromContent } from "./tuning.ts";
-// Parsers for tab sources: Ultimate Guitar (js-store JSON) and FolkChords
-// (WordPress entry-content), plus a fetch helper with a browser user agent.
+// Parsers for tab sources: Ultimate Guitar (js-store JSON) here, FolkChords
+// (SVG-glyph chords) in folkchords.ts, plus a fetch helper with a browser UA.
 
 export interface ParsedTab {
   title: string;
@@ -8,6 +9,8 @@ export interface ParsedTab {
   type: "Chords" | "Tab";
   capo: number | null;
   tuning: string | null;
+  /** Song length in seconds when the source provides it. */
+  durationSec?: number | null;
   content: string;
 }
 
@@ -69,57 +72,20 @@ export function parseUgHtml(html: string): ParsedTab | null {
   };
 }
 
-export function parseFolkChordsHtml(html: string, url: string): ParsedTab | null {
-  // Title pattern: "Artist - Song Chords & Lyrics | FolkChords.com"
-  const titleMatch = html.match(/<title>([^<]+)<\/title>/i);
-  let artist = "Unknown";
-  let title = "Untitled";
-  if (titleMatch) {
-    const t = unescapeHtml(titleMatch[1])
-      .replace(/\s*Chords( & Lyrics)?\s*\|.*$/i, "")
-      .trim();
-    const dash = t.indexOf(" - ");
-    if (dash > 0) {
-      artist = t.slice(0, dash).trim();
-      title = t.slice(dash + 3).trim();
-    } else {
-      title = t;
-    }
-  }
-
-  // Prefer <pre> blocks (where chord sheets live); fall back to entry-content text.
-  const preBlocks = [...html.matchAll(/<pre[^>]*>([\s\S]*?)<\/pre>/gi)].map(
-    (m) => m[1]
-  );
-  let body = preBlocks.join("\n\n");
-  if (!body.trim()) {
-    const entry = html.match(
-      /<div[^>]*class="[^"]*entry-content[^"]*"[^>]*>([\s\S]*?)<\/div>/i
-    );
-    body = entry ? entry[1] : "";
-  }
-  if (!body.trim()) return null;
-
-  const text = unescapeHtml(
-    body
-      .replace(/<br\s*\/?>/gi, "\n")
-      .replace(/<\/(p|div|h\d)>/gi, "\n")
-      .replace(/<[^>]+>/g, "")
-  )
-    .replace(/\r\n/g, "\n")
-    .replace(/\n{3,}/g, "\n\n")
-    .trim();
-  if (!text) return null;
-
-  void url;
-  return {
-    title,
-    artist,
-    type: "Chords",
-    capo: null,
-    tuning: detectTuningFromContent(text),
-    content: text + "\n",
-  };
+// FolkChords' WordPress REST body keeps every section header, unlike the page.
+async function fetchFolkChordsRest(url: string): Promise<string | null> {
+  const slug = new URL(url).pathname.split("/").filter(Boolean).pop();
+  if (!slug) return null;
+  const api = `https://folkchords.com/wp-json/wp/v2/posts?slug=${encodeURIComponent(slug)}&_fields=content`;
+  const res = await fetch(api, {
+    headers: { "User-Agent": BROWSER_UA, Accept: "application/json" },
+    signal: AbortSignal.timeout(20000),
+  });
+  if (!res.ok) return null;
+  const posts: unknown = await res.json();
+  const first = Array.isArray(posts) ? posts[0] : null;
+  const rendered = (first as { content?: { rendered?: unknown } } | null)?.content?.rendered;
+  return typeof rendered === "string" && rendered.trim() ? rendered : null;
 }
 
 export async function fetchTabFromUrl(url: string): Promise<ParsedTab | null> {
@@ -135,7 +101,10 @@ export async function fetchTabFromUrl(url: string): Promise<ParsedTab | null> {
   const html = await res.text();
   const host = new URL(url).hostname;
   if (host.includes("ultimate-guitar.com")) return parseUgHtml(html);
-  if (host.includes("folkchords.com")) return parseFolkChordsHtml(html, url);
+  if (host.includes("folkchords.com")) {
+    const rest = await fetchFolkChordsRest(url).catch(() => null);
+    return parseFolkChordsHtml(html, rest);
+  }
   // Unknown source: try UG-style first, then give up.
   return parseUgHtml(html);
 }

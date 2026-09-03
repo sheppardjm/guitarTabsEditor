@@ -45,3 +45,6 @@ next-env.d.ts
 
 # playwright mcp artifacts
 .playwright-mcp/
+
+# folkchords glyph harvest cache (scripts/folkchords-glyphs.ts)
+.folkchords-cache/

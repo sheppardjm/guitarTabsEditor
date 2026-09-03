@@ -47,6 +47,7 @@ export default function TabEditor({ tab }: { tab: TabEntry | null }) {
       setType(t.type);
       setCapo(t.capo?.toString() ?? "");
       setTuning(t.tuning ?? "");
+      if (t.durationSec) setDurationSec(String(t.durationSec));
       setContent(t.content);
       setSourceUrl(url);
     });

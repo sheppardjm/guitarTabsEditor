@@ -4,6 +4,10 @@
 //
 // Run from the repo root with Node >= 22.18 (native type stripping):
 //   node scripts/import-bookmarks.ts
+//   node scripts/import-bookmarks.ts --refetch folkchords.com
+//     re-fetches bookmarks whose URL contains the given text (e.g. after a
+//     parser fix) and rewrites the existing library entry in place, keeping
+//     addedAt, bpm and scrollAdjust from the current file.
 
 import fs from "node:fs";
 import os from "node:os";
@@ -13,6 +17,7 @@ import {
   listTabs,
   makeSlug,
   writeTab,
+  type TabEntry,
   type TabMeta,
 } from "../lib/library.ts";
 import { fetchTabFromUrl, type ParsedTab } from "../lib/ugParser.ts";
@@ -22,6 +27,14 @@ const BOOKMARKS_PATH = path.join(
   "Library/Application Support/Google/Chrome/Profile 3/Bookmarks"
 );
 const FOLDER_ID = "682";
+
+// --refetch <substring>: re-import bookmarks whose URL contains it.
+const refetchIdx = process.argv.indexOf("--refetch");
+const REFETCH = refetchIdx > 0 ? process.argv[refetchIdx + 1] ?? "" : "";
+if (refetchIdx > 0 && !REFETCH) {
+  console.error("--refetch needs a URL substring, e.g. --refetch folkchords.com");
+  process.exit(1);
+}
 
 interface Bookmark {
   name: string;
@@ -121,15 +134,14 @@ async function main() {
   const bookmarks = collectBookmarks(folder);
   console.log(`Found ${bookmarks.length} bookmarks in "${folder.name}"`);
 
-  const existingUrls = new Set(
-    listTabs()
-      .map((t) => t.sourceUrl)
-      .filter(Boolean)
-      .map((u) => canonicalKey(u as string))
-  );
+  const existingByKey = new Map<string, TabEntry>();
+  for (const t of listTabs()) {
+    if (t.sourceUrl) existingByKey.set(canonicalKey(t.sourceUrl), t);
+  }
 
   const seen = new Set<string>();
   let imported = 0;
+  let refetched = 0;
   let stubs = 0;
   let dupes = 0;
   let already = 0;
@@ -142,7 +154,9 @@ async function main() {
       continue;
     }
     seen.add(key);
-    if (existingUrls.has(key)) {
+    const existing = existingByKey.get(key) ?? null;
+    const refetch = !!existing && !!REFETCH && bm.url.includes(REFETCH);
+    if (existing && !refetch) {
       already++;
       continue;
     }
@@ -171,18 +185,23 @@ async function main() {
       type: parsed?.type ?? fallback.type,
       capo: parsed?.capo ?? null,
       tuning: parsed?.tuning ?? null,
-      bpm: null,
-      durationSec: DEFAULT_DURATION_SEC,
-      scrollAdjust: 1.0,
+      bpm: existing?.bpm ?? null,
+      durationSec: parsed?.durationSec ?? existing?.durationSec ?? DEFAULT_DURATION_SEC,
+      scrollAdjust: existing?.scrollAdjust ?? 1.0,
       sourceUrl: bm.url,
-      addedAt: new Date().toISOString().slice(0, 10),
+      addedAt: existing?.addedAt ?? new Date().toISOString().slice(0, 10),
     };
 
     if (parsed) {
-      const slug = makeSlug(base.artist, base.title, base.type);
+      const slug = existing?.slug ?? makeSlug(base.artist, base.title, base.type);
       writeTab(slug, { ...base, status: "ok" }, parsed.content);
-      imported++;
-      console.log(`${progress} ok    ${base.artist} — ${base.title}`);
+      if (existing) refetched++;
+      else imported++;
+      console.log(`${progress} ${existing ? "REFETCHED" : "ok"}    ${base.artist} — ${base.title}`);
+    } else if (existing) {
+      // Re-fetch failed: keep the current file untouched.
+      failures.push(`${base.artist} — ${base.title}: ${error} (existing entry kept)`);
+      console.log(`${progress} KEPT  ${base.artist} — ${base.title} (${error})`);
     } else {
       const slug = makeSlug(base.artist, base.title, base.type);
       writeTab(slug, { ...base, status: "stub" }, "");
@@ -194,6 +213,7 @@ async function main() {
 
   console.log("\n=== Import report ===");
   console.log(`Imported:            ${imported}`);
+  if (REFETCH) console.log(`Re-fetched:          ${refetched}`);
   console.log(`Stubs (fetch/parse): ${stubs}`);
   console.log(`Duplicate bookmarks: ${dupes}`);
   console.log(`Already in library:  ${already}`);
