@@ -106,7 +106,9 @@ export default function TabContent({ content }: { content: string }) {
     if (!popover) return;
     const close = (e: Event) => {
       const t = e.target as HTMLElement | null;
-      if (t?.closest(".chord")) return; // chord clicks handle themselves
+      // Chord clicks handle themselves; clicks inside the popover (variant
+      // arrows) must not dismiss it.
+      if (t?.closest(".chord") || t?.closest(".chord-popover")) return;
       openForRef.current = null;
       setPopover(null);
     };

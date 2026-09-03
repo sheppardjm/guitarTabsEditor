@@ -27,7 +27,7 @@ export default function ChordPopover({
 
   return (
     <div
-      className="absolute z-50 rounded-lg border border-border-line bg-surface-2 px-3 py-2 font-sans shadow-xl shadow-black/50"
+      className="chord-popover absolute z-50 rounded-lg border border-border-line bg-surface-2 px-3 py-2 font-sans shadow-xl shadow-black/50"
       style={{ left, top, width: POPOVER_WIDTH }}
       onClick={(e) => e.stopPropagation()}
     >
