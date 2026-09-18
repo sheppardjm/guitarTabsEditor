@@ -14,6 +14,8 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
   const [sort, setSort] = useState<SortKey>("artist");
   // "" = any tuning, "alt" = anything non-standard, otherwise a specific label
   const [tuningFilter, setTuningFilter] = useState("");
+  // "" = any, "none" = no capo, "any" = any capo, otherwise a fret number
+  const [capoFilter, setCapoFilter] = useState("");
 
   const labels = useMemo(() => {
     const m = new Map<string, string | null>();
@@ -26,6 +28,12 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
     for (const l of labels.values()) if (l) counts.set(l, (counts.get(l) ?? 0) + 1);
     return [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
   }, [labels]);
+
+  const capoOptions = useMemo(() => {
+    const counts = new Map<number, number>();
+    for (const t of tabs) if (t.capo) counts.set(t.capo, (counts.get(t.capo) ?? 0) + 1);
+    return [...counts.entries()].sort((a, b) => a[0] - b[0]);
+  }, [tabs]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -42,6 +50,13 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
         return tuningFilter === "alt" ? l !== null : l === tuningFilter;
       });
     }
+    if (capoFilter) {
+      list = list.filter((t) => {
+        if (capoFilter === "none") return !t.capo;
+        if (capoFilter === "any") return !!t.capo;
+        return t.capo === Number(capoFilter);
+      });
+    }
     const sorted = [...list];
     if (sort === "artist") {
       sorted.sort(
@@ -53,7 +68,7 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
       sorted.sort((a, b) => b.addedAt.localeCompare(a.addedAt));
     }
     return sorted;
-  }, [tabs, query, sort, tuningFilter, labels]);
+  }, [tabs, query, sort, tuningFilter, capoFilter, labels]);
 
   return (
     <main className="mx-auto w-full max-w-4xl px-4 py-8">
@@ -101,6 +116,22 @@ export default function LibraryBrowser({ tabs }: { tabs: TabListItem[] }) {
             {tuningOptions.map(([label, n]) => (
               <option key={label} value={label}>
                 {label} ({n})
+              </option>
+            ))}
+          </select>
+        ) : null}
+        {capoOptions.length > 0 ? (
+          <select
+            value={capoFilter}
+            onChange={(e) => setCapoFilter(e.target.value)}
+            className="rounded-md border border-border-line bg-surface px-2 py-2 text-sm"
+          >
+            <option value="">Any capo</option>
+            <option value="none">No capo</option>
+            <option value="any">With capo</option>
+            {capoOptions.map(([fret, n]) => (
+              <option key={fret} value={fret}>
+                Capo {fret} ({n})
               </option>
             ))}
           </select>

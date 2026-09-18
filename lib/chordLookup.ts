@@ -48,12 +48,20 @@ const SUFFIX_ALIASES: Record<string, string> = {
   "7b5": "7b5", "7#5": "aug7", aug7: "aug7",
   "9": "9", m9: "m9", maj9: "maj9", M9: "maj9",
   add9: "add9", "(add9)": "add9", madd9: "madd9", "m(add9)": "madd9",
+  add11: "add11", "(add11)": "add11", add4: "add11", "(add4)": "add11",
   "11": "11", m11: "m11", maj11: "maj11",
   "13": "13", maj13: "maj13",
   m6: "m6", "m6/9": "m69", m69: "m69",
   m7b5: "m7b5", "ø": "m7b5", "ø7": "m7b5",
   mmaj7: "mmaj7", mM7: "mmaj7", "m(maj7)": "mmaj7",
   "7b9": "7b9", "7#9": "7#9", "9b5": "9b5", "9#11": "9#11", aug9: "aug9",
+};
+
+// Chords that chords-db doesn't have, keyed by "<dbKey>:<suffix>".
+const EXTRA_CHORDS: Record<string, ChordPosition[]> = {
+  "G:add11": [
+    { frets: [3, 2, 0, 0, 1, 3], fingers: [3, 2, 0, 0, 1, 4], baseFret: 1, barres: [] },
+  ],
 };
 
 let dbPromise: Promise<GuitarDb> | null = null;
@@ -109,6 +117,8 @@ export async function findChord(rawName: string): Promise<ChordMatch | null> {
   for (const c of candidates) {
     const entry = entries.find((e) => e.suffix === c);
     if (entry) return { name, positions: entry.positions };
+    const extra = EXTRA_CHORDS[`${key}:${c}`];
+    if (extra) return { name, positions: extra };
   }
   return null;
 }
