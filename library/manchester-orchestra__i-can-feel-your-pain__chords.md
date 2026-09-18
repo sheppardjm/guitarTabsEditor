@@ -37,7 +37,7 @@ In my bones, in my bones[/tab]
 [tab][ch]Am[/ch]
 I was scared to call your mother[/tab]
 [tab]    [ch]C[/ch]
-For news that you weren&rsquo;t getting better[/tab]
+For news that you weren’t getting better[/tab]
 [tab]    [ch]G[/ch]                                       [ch]Am[/ch]
 My God, just what the hell am I supposed to do?[/tab]
 

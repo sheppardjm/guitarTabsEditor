@@ -27,7 +27,7 @@ strumming:
 ---
 
 LANDSLIDE - Stevie Nicks
-Tabbed by D. Carr, Sept 21, 2010 &ndash; revised Feb 25, 2018
+Tabbed by D. Carr, Sept 21, 2010 – revised Feb 25, 2018
 Standard tuning - capo on 3rd fret
 
 Travis picking or strum...

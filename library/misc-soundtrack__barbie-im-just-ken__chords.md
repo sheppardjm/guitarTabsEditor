@@ -80,7 +80,7 @@ What will it take for her to see the man behind the tan and fight for me?[/tab]
 
 [Verse 2]
 [tab][ch]E[/ch]           [ch]G[/ch]                      [ch]D[/ch]
-   I wanna know what it&rsquo;s like to love[/tab]
+   I wanna know what it’s like to love[/tab]
 [tab]           [ch]E[/ch]
 To be the real thing[/tab]
 [tab]          [ch]G[/ch]              [ch]D[/ch]                  [ch]E[/ch]

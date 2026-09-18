@@ -42,9 +42,35 @@ body {
 }
 
 .tab-content .tab-line {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  min-height: 1.5em;
+}
+
+/* Chord line + lyric line rendered as wrapping segments (see TabContent). */
+.tab-content .tab-pair {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.tab-content .pair-seg {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.tab-content .pair-chord,
+.tab-content .pair-lyric {
+  min-height: 1.5em;
+}
+
+/* Tablature stays on one line; string lines cannot wrap sensibly. */
+.tab-content .tab-block .tab-line {
   white-space: pre;
   overflow-x: auto;
-  min-height: 1.5em;
 }
 
 .tab-content .chord {
@@ -83,6 +109,3 @@ body {
   overflow-x: auto;
 }
 
-.tab-content .tab-block .tab-line {
-  overflow-x: visible;
-}

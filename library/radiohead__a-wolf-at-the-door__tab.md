@@ -199,7 +199,7 @@ Lyrics
      Drag him out your window 
      Dragging out your dead 
      Singing I miss you 
-     Snakes &amp; ladders flip the lid out pops
+     Snakes & ladders flip the lid out pops
    the cracker smacks you in the head knifes
    you in the neck kicks you in the teeth steel
    toe caps takes all your credit cards step up
@@ -226,26 +226,26 @@ Lyrics
    calls me up calls me on the phone tells me
    all the ways that he's gonna mess me up
      Steal all my children if I don't pay the
-   ransom &amp; I'll never see him again if I
+   ransom & I'll never see him again if I
    squeal to the cops...
 
 
 [Verse 2]
 
-     Walking like giant cranes &amp; with my X
+     Walking like giant cranes & with my X
    ray eyes i strip you naked in a
-     Tight little world &amp; are you on the list?
+     Tight little world & are you on the list?
      Stepford wives who are we to complain?
-     Investments &amp; dealers. Investments &amp;
+     Investments & dealers. Investments &
    dealers
-     Cold wives &amp; mistresses.
-     Cold wives &amp; sunday papers city boys
+     Cold wives & mistresses.
+     Cold wives & sunday papers city boys
    in First Class don't know we're born just
    know
-     Someone else is gonna come &amp; clean it up
-     Born &amp; raised for the job
+     Someone else is gonna come & clean it up
+     Born & raised for the job
    Someone always does I wish you'd get up
-   go over get up go over &amp; turn your tape off
+   go over get up go over & turn your tape off
 
 ************************************
 

@@ -14,7 +14,7 @@ strumming: []
 ---
 
 -----------------------------------------------------------------------------
-11.17.10 &ndash; Kevin Devine
+11.17.10 – Kevin Devine
 -------------------------------------------------------------------------------
 Tabbed by: Stickadillo11
 Email:  m.thomas@bellsouth.net
@@ -26,7 +26,7 @@ to that you can use how you see best fit.
 Also, the second half of the song is played with chords, with essentially the same 
 timing, only a fuller strumming pattern.
 I will include the progression below, but just refer to the tablature for the timing, as 
-it doesn&rsquo;t really change.
+it doesn’t really change.
 Feel free to throw in a few hammer-ons and pull-offs in the chorded parts for a little interest.
 Otherwise, any questions, corrections and comments are fully welcomed. Thanks and enjoy, guys.
 
@@ -96,7 +96,7 @@ No one seems to mind
 
 Sour grapes when the joke goes bad
 This same smirk, same bullshit laugh
-It&rsquo;s the egg on my face when I can't go back
+It’s the egg on my face when I can't go back
 I didn't plan for that
 I didn't plan for that
 I didn't plan for that

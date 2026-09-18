@@ -34,7 +34,7 @@ strumming:
 [tab][ch]E[/ch]
 Summer sun is leavin'[/tab]
 
-Sunny day&rsquo;s been dreamin&rsquo;
+Sunny day’s been dreamin’
 [tab][ch]A[/ch]
 Winter coats on everyone[/tab]
 
@@ -43,7 +43,7 @@ Winter smiles feel so warm
 
 [Chorus]
 [tab][ch]E[/ch]
-I&rsquo;ll stand the odd space[/tab]
+I’ll stand the odd space[/tab]
 
 Party at Sunday
 [tab][ch]A[/ch]

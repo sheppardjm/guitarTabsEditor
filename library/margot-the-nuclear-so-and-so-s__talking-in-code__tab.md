@@ -15,7 +15,7 @@ strumming: []
 ---
 
 "Talking In Code"
-by Margot and the Nuclear So &amp; So's
+by Margot and the Nuclear So & So's
 Tabbed by Drew Whitaker
 I've tabbed the basic picking pattern but it sounds better if you strum along inbetween 
 - like it's done in the actual song itself.

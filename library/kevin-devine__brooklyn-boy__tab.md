@@ -21,7 +21,7 @@ Intro: C, C/B, C, C/B
     C      C/B Am       G      F             
 A Brooklyn boy born and raised chopping lines 
 G               F    C    F  C
-hey hey it&rsquo;s my birthday
+hey hey it’s my birthday
    C    C/B        Am      G        F                 
 A toy I torched to tar pit flames a lock jaw night 
 G              F      C    F   G
@@ -29,7 +29,7 @@ hey hey its my birthday
          Am                     F       C
 Dead-end friends will make your stomach shake
            C/B      Am
-While your hissing&rsquo; head
+While your hissing’ head
 Em                F                G
 Barrels down that blackened lane
           Dm            Am                 F  C  C/B
@@ -76,7 +76,7 @@ hear its back break
           C   C/B   Am         G   F                G      
 So I can never tell night from day right from wrong hey hey  
            F     C       F          G
-you&rsquo;re my headache
+you’re my headache
          Am                F       C      C/B        Am
 A silver tongue amass your hungry hate while haggard heart
 Em                  F              G

@@ -81,6 +81,7 @@ export function ugTabId(url: string | null | undefined): number | null {
 export const BROWSER_UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
+// Attribute-level unescape for the js-store blob (&amp; last, on purpose).
 function unescapeHtml(s: string): string {
   return s
     .replace(/&quot;/g, '"')
@@ -92,6 +93,31 @@ function unescapeHtml(s: string): string {
     .replace(/&#x2F;/g, "/")
     .replace(/&nbsp;/g, " ")
     .replace(/&amp;/g, "&");
+}
+
+const NAMED_ENTITIES: Record<string, string> = {
+  amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ",
+  rsquo: "\u2019", lsquo: "\u2018", rdquo: "\u201d", ldquo: "\u201c",
+  sbquo: "\u201a", bdquo: "\u201e", prime: "\u2032",
+  ndash: "\u2013", mdash: "\u2014", hellip: "\u2026", middot: "\u00b7", bull: "\u2022",
+  deg: "\u00b0", times: "\u00d7", copy: "\u00a9", reg: "\u00ae", trade: "\u2122",
+  or: "\u2228", and: "\u2227", darr: "\u2193", uarr: "\u2191", larr: "\u2190", rarr: "\u2192",
+  flat: "\u266d", sharp: "\u266f", natural: "\u266e",
+  eacute: "\u00e9", egrave: "\u00e8", aacute: "\u00e1", agrave: "\u00e0", iacute: "\u00ed",
+  oacute: "\u00f3", uacute: "\u00fa", ntilde: "\u00f1", ccedil: "\u00e7", uuml: "\u00fc",
+  ouml: "\u00f6", auml: "\u00e4", Eacute: "\u00c9", szlig: "\u00df",
+};
+
+/** Decode HTML entities left inside tab text (named, decimal and hex). */
+export function decodeEntities(s: string): string {
+  if (!s.includes("&")) return s;
+  return s.replace(/&(#x[0-9a-f]+|#\d+|[a-z][a-z0-9]*);/gi, (m, body: string) => {
+    if (body[0] === "#") {
+      const code = body[1].toLowerCase() === "x" ? parseInt(body.slice(2), 16) : parseInt(body.slice(1), 10);
+      return Number.isFinite(code) && code > 0 && code < 0x110000 ? String.fromCodePoint(code) : m;
+    }
+    return NAMED_ENTITIES[body] ?? NAMED_ENTITIES[body.toLowerCase()] ?? m;
+  });
 }
 
 // Untyped JSON from UG's page store; fields are validated where they are read.
@@ -198,13 +224,13 @@ export function parseUgHtml(html: string): ParsedTab | null {
         ? parseInt(capoRaw, 10)
         : null;
 
-  const body = content.replace(/\r\n/g, "\n").trim() + "\n";
+  const body = decodeEntities(content.replace(/\r\n/g, "\n").trim()) + "\n";
   if (!tuning) tuning = detectTuningFromContent(body);
 
   const rawType = String(tab.type ?? "");
   return {
-    title: String(tab.song_name ?? "Untitled"),
-    artist: String(tab.artist_name ?? "Unknown"),
+    title: decodeEntities(String(tab.song_name ?? "Untitled")),
+    artist: decodeEntities(String(tab.artist_name ?? "Unknown")),
     type: rawType.toLowerCase().startsWith("chord") ? "Chords" : "Tab",
     capo,
     tuning,

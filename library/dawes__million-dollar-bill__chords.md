@@ -79,7 +79,7 @@ So when these rich men that she wants[/tab]
 [tab]         [ch]D[/ch]
 Show her ways they can take care of her[/tab]
 [tab]          [ch]Am[/ch]                               [ch]C/G[/ch]
-I&rsquo;ll have found a way to be there with her still[/tab]
+I’ll have found a way to be there with her still[/tab]
 
 
 [Chorus]
@@ -101,7 +101,7 @@ So when she steps out into the night[/tab]
 [tab]              [ch]D[/ch]
 And finds the light that makes her prettiest[/tab]
 [tab]          [ch]Am[/ch]                          [ch]C/G[/ch]
-She&rsquo;ll be facing me everytime she shines[/tab]
+She’ll be facing me everytime she shines[/tab]
 
 
 [Chorus]

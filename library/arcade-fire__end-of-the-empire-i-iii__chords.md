@@ -111,13 +111,13 @@ Didn't use to think I   could ever dream about losing you, you, but I do[/tab]
 
 [Chorus]
 [tab]    [ch]C[/ch]
-It&rsquo;s you and I, it&rsquo;s do or die[/tab]
+It’s you and I, it’s do or die[/tab]
 [tab] [ch]Am[/ch]
 Suicide mission, baby by my side[/tab]
 [tab]      [ch]C[/ch]
-We got one life and half of it&rsquo;s gone[/tab]
+We got one life and half of it’s gone[/tab]
 [tab]           [ch]Am[/ch]
-You know I can&rsquo;t sleep with the television on[/tab]
+You know I can’t sleep with the television on[/tab]
 
 
 [Outro]

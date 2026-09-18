@@ -17,7 +17,7 @@ strumming: []
 Song: Highway Patrol Stun Gun
 Album: Savage Hills Ballroom
 Artist: Youth Lagoon
-&gt;&gt; Capo 1 &lt;&lt;
+>> Capo 1 <<
 
 Intro: [ch]C[/ch]
 

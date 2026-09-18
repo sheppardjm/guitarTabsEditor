@@ -300,11 +300,11 @@ The boy looks down and begins to cry
 The day you said goodbye
 
 Chorus 1:
-And I know you&rsquo;ve been abandoned
-But don&rsquo;t abandon ship on me
+And I know you’ve been abandoned
+But don’t abandon ship on me
 Just know like a winter white snow
-You&rsquo;ve been forgiven, come back to me
-I know right now that don&rsquo;t mean anything
+You’ve been forgiven, come back to me
+I know right now that don’t mean anything
 
 Verse 3:
 Your skinny legs bounced up into the sky
@@ -317,8 +317,8 @@ When the red and blue lights made the scene
 Your eyes were glazed, and honestly
 Can you remember anything?
 But when the others ran away
-I prayed to God they wouldn&rsquo;t stay
-But sometimes He doesn&rsquo;t listen
+I prayed to God they wouldn’t stay
+But sometimes He doesn’t listen
 
 Chorus 2:
 From a father to his daughter
