@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/death-cab-for-cutie/i-will-follow-you-into-the-dark-chords-335735
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Whole Song
+    bpm: 155
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [Intro]

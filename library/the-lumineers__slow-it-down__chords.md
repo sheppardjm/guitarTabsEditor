@@ -10,6 +10,7 @@ scrollAdjust: 0.751
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-lumineers/slow-it-down-chords-1135461'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 every time the C chord is played it does the same pattern

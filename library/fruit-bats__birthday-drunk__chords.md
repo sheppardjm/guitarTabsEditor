@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/fruit-bats/birthday-drunk-chords-1966289'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Tuning: Drop D

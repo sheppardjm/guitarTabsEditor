@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-antlers/two-chords-1162378'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 110
+    division: 8
+    triplet: false
+    strokes:
+      - 3
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 3
+      - 1
+      - 1
+      - 1
 ---
 
 Capo 9

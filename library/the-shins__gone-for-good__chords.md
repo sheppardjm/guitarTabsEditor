@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-shins/gone-for-good-chords-542723'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Gone For Good-The Shins

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/tom-petty-and-the-heartbreakers/for-real-chords-2609667
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Chords]

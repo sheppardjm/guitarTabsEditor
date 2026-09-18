@@ -10,6 +10,65 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bright-eyes/poison-oak-chords-169733'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Main Pattern
+    bpm: 138
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+  - part: 'Choruses 2 and 3, Outro'
+    bpm: 152
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 Bright Eyes - "Poison Oak"

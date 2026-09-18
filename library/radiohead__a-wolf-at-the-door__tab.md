@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/radiohead/a-wolf-at-the-door-tabs-385417'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Tuning: Standard (E A D G B E)

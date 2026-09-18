@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/fruit-bats/hummingbird-sage-chords-6560633
 addedAt: '2026-08-27'
 status: ok
+strumming: []
 ---
 
 Capo: 3rd Fret

@@ -10,6 +10,7 @@ scrollAdjust: 1.21
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/3-doors-down/be-like-that-tabs-183061'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Title:  Be Like That (acoustic)

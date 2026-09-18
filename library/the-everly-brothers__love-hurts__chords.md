@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-everly-brothers/love-hurts-chords-1099552
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Love Hurts chords

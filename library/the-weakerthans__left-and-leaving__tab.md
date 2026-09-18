@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-weakerthans/left-and-leaving-tabs-2460714
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

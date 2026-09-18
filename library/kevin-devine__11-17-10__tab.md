@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kevin-devine/11-17-10-tabs-1112261'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -----------------------------------------------------------------------------

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-white-stripes/were-going-to-be-friends-tabs-952153
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

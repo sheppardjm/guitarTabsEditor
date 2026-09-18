@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/five-for-fighting/superman-its-not-easy-chords-13305
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 105
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [Intro]

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/manchester-orchestra/colly-strings-tabs-627463
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Colly Strings by Manchester Orchestra off of their album I'm like a Virgin Losing

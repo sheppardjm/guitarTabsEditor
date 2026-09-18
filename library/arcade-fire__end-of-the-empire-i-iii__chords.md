@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/arcade-fire/end-of-the-empire-i-iii-chords-4182973
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Verse 1]

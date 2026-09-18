@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/travis-tritt/its-a-great-day-to-be-alive-chords-1239855
 addedAt: '2026-09-18'
 status: ok
+strumming: []
 ---
 
 Travis Tritt - It's a Great Day to be Alive

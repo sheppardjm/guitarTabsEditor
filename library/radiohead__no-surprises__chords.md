@@ -10,6 +10,44 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/radiohead/no-surprises-chords-183884'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Main Pattern
+    bpm: 75
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [tab][Intro]

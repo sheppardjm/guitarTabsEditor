@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/shakey-graves/pansy-waltz-chords-1671041'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -------------------------------------------------------------------------------

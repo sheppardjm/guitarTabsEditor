@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/concrete-blonde/joey-chords-63783'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Main Pattern
+    bpm: 118
+    division: 8
+    triplet: false
+    strokes:
+      - 2
+      - 102
+      - 1
+      - 101
+      - 2
+      - 102
+      - 1
+      - 202
 ---
 
 [Intro]

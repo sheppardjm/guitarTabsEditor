@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/houndmouth/good-for-you-chords-3156086'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

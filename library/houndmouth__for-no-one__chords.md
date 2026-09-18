@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/houndmouth/for-no-one-chords-1715995'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -------------------------------------------------------------------------------

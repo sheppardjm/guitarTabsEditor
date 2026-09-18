@@ -10,6 +10,78 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/timber-timbre/demon-host-chords-893466'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Intro, Verse, Interlude (3/4 + 4/4)'
+    bpm: 76
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+  - part: Chorus (4/4)
+    bpm: 76
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+  - part: Outro (3/4)
+    bpm: 76
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
 ---
 
 "Demon Host"

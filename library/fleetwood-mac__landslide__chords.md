@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/fleetwood-mac/landslide-chords-989772'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 80
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
 ---
 
 LANDSLIDE - Stevie Nicks

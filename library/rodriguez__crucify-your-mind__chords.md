@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/rodriguez/crucify-your-mind-chords-1240557
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Sixto Rodriguez - Crucify Your Mind

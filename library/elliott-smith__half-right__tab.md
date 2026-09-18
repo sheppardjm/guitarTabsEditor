@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/elliott-smith/half-right-tabs-523687'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 I tried to find this tab, and none of them were done right.  E-mail me if you think I

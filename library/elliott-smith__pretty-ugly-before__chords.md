@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/pretty-ugly-before-chords-967402
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 I felt this song deserved a better tab, and though I'm not sure if this is the way 

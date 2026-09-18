@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/brand-new/cant-get-it-out-chords-2116657'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Tuning half step down.

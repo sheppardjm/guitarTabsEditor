@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/radiohead/karma-police-chords-4130'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 75
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 KARMA POLICE - by Radiohead

@@ -10,6 +10,54 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/don-mclean/american-pie-chords-998441'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Verse 1
+    bpm: 62
+    division: 4
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+  - part: Chorus
+    bpm: 96
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+  - part: Verse 2 onwards
+    bpm: 142
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 [Verse 1]

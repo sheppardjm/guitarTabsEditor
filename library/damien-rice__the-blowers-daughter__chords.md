@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/damien-rice/the-blowers-daughter-chords-875322
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Here is a really easy way to play "Blower's Daughter" by Damien Rice 

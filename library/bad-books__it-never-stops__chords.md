@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bad-books/it-never-stops-chords-1401181'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 This song is played in half step, but the chords are played relative to the 

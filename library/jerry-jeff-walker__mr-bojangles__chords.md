@@ -11,6 +11,21 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/jerry-jeff-walker/mr-bojangles-chords-755252
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Whole Song
+    bpm: 155
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 MR BOJANGLES as performed by Jerry Jeff Walker

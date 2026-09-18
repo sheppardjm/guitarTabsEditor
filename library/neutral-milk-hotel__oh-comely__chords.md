@@ -11,6 +11,21 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/neutral-milk-hotel/oh-comely-chords-261688
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 119
+    division: 8
+    triplet: true
+    strokes:
+      - 3
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

@@ -10,6 +10,41 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/johnny-cash/hurt-chords-89849'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Chorus
+    bpm: 90
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Intro/Verse/Transition
+    bpm: 90
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 101
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 1
+      - 1
+      - 101
+      - 202
+      - 1
+      - 1
+      - 101
+      - 202
 ---
 
 Note: to play the chorus correctly and simulate the piano playing, keep the G on the third fret of the

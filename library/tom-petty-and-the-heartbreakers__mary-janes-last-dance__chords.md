@@ -11,6 +11,65 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/tom-petty-and-the-heartbreakers/mary-janes-last-dance-chords-205804
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Instrumental Parts Main Pattern
+    bpm: 84
+    division: 16
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+      - 2
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 101
+  - part: Verse Main Pattern
+    bpm: 84
+    division: 16
+    triplet: true
+    strokes:
+      - 2
+      - 202
+      - 202
+      - 2
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 2
+      - 202
+      - 202
+      - 2
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

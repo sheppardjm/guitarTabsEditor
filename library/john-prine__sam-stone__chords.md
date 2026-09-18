@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/john-prine/sam-stone-chords-1052027'
 addedAt: '2026-08-27'
 status: ok
+strumming: []
 ---
 
 Sam Stone chords

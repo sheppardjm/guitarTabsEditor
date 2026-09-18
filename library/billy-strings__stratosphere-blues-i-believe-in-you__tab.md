@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/billy-strings/stratosphere-blues-i-believe-in-you-tabs-5421090
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Intro/Verse(from 1:53 in song)

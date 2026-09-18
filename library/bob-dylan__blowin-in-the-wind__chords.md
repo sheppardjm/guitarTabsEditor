@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bob-dylan/blowin-in-the-wind-chords-14835'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 175
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 Capo 7 for this version in D - https://www.youtube.com/watch?v=MMFj8uDubsE

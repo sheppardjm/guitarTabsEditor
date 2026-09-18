@@ -10,6 +10,49 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/semisonic/closing-time-chords-27240'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Verse
+    bpm: 92
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Chorus
+    bpm: 92
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 2
+      - 102
+      - 2
+      - 102
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
 ---
 
 Closing Time

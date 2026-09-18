@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/margot-the-nuclear-so-and-sos/talking-in-code-tabs-465204
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 "Talking In Code"

@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/matt-berry/take-my-hand-chords-1896820'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

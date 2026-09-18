@@ -10,6 +10,36 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/train/drops-of-jupiter-chords-1433'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 80
+    division: 16
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 101
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

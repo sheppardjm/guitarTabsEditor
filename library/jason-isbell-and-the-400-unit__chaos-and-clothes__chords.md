@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/jason-isbell-and-the-400-unit/chaos-and-clothes-chords-2103175
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Chaos and Clothes

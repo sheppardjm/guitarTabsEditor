@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/brand-new/i-will-play-my-game-beneath-the-spin-light-chords-477086
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Artist- Brand New

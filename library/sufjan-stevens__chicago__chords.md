@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/sufjan-stevens/chicago-chords-1203826'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 125
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 Artist: Sufjan Stevens

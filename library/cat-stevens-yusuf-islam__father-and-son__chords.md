@@ -11,6 +11,49 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/cat-stevens-yusuf-islam/father-and-son-chords-84491
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Intro, Verse Tags'
+    bpm: 67
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+  - part: Verse & Interlude (Main pattern)
+    bpm: 67
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [tab][Intro] (two guitars arranged for one)

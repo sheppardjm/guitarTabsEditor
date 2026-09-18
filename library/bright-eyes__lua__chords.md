@@ -10,6 +10,24 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bright-eyes/lua-chords-391832'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 106
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 3
+      - 202
+      - 202
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

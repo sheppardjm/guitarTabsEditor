@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/dashboard-confessional/vindicated-tabs-120736
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [tab][Intro] (x2)

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/somebody-that-i-used-to-know-tabs-776940
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Somebody That I Used to Know

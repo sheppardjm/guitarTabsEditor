@@ -11,6 +11,21 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/songs-ohia/the-old-black-hen-chords-1800784
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 123
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 This song's been out for a while, obviously, 

@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/3-doors-down/kryptonite-tabs-19141'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 3 Doors Down, Kryptonite.

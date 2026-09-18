@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/brand-new/handcuffs-chords-537948'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [tab]   [ch]G[/ch] [ch]Aadd9[/ch] [ch]Bm[/ch] [ch]F#madd11[/ch] [ch]G/D[/ch] [ch]Dadd11[/ch] [ch]Em7/B[/ch] [ch]B5[/ch] [ch]Gadd9[/ch] [ch]Bm7[/ch] [ch]F#5[/ch] [ch]G5[/ch] [ch]G[/ch]* [ch]D/F#[/ch] [ch]Em[/ch] [ch]Dadd11/F#[/ch] [ch]G/B[/ch] [ch]G[/ch]** [ch]A7[/ch]

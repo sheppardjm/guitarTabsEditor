@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/dawes/million-dollar-bill-chords-1199810'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -------------------------------------------------------------------------------

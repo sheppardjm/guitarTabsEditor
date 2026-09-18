@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/dawes/give-me-time-chords-1009742'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Dawes - Give Me Time

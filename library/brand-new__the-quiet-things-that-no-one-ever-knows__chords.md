@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/brand-new/the-quiet-things-that-no-one-ever-knows-chords-775541
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro] 

@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-deslondes/good-to-go-chords-4262626'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 126
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 GOOD TO GO

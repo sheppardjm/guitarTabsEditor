@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/elton-john/rocket-man-chords-10744'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Chorus
+    bpm: 69
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 202
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 Rocket Man - Elton John

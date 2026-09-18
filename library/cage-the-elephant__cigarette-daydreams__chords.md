@@ -11,6 +11,118 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/cage-the-elephant/cigarette-daydreams-chords-1423735
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Intro/Verse (first two chords)
+    bpm: 114
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Intro/Verse (last three chords)
+    bpm: 114
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 202
+      - 202
+      - 101
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Chorus
+    bpm: 114
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
 ---
 
 [Intro]

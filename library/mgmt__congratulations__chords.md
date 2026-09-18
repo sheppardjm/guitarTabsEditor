@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/mgmt/congratulations-chords-988437'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Verse and Breaks
+    bpm: 62
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 Congratulations - MGMT

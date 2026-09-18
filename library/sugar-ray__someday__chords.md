@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/sugar-ray/someday-chords-906228'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Sugar Ray

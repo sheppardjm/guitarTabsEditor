@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/father-john-misty/one-of-us-cannot-be-wrong-chords-3302471
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

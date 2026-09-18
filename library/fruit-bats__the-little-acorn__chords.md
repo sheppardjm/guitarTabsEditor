@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/fruit-bats/the-little-acorn-chords-1084999
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Fruit Bats

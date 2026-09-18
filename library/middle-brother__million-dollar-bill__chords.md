@@ -11,6 +11,24 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/middle-brother/million-dollar-bill-chords-1041874
 addedAt: '2026-08-27'
 status: ok
+strumming:
+  - part: ''
+    bpm: 60
+    division: 16
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

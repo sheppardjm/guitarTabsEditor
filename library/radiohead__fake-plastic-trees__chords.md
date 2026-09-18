@@ -10,6 +10,44 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/radiohead/fake-plastic-trees-chords-4149'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Whole Song
+    bpm: 73
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [Verse 1]

@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/james-blunt/youre-beautiful-chords-180394'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: All
+    bpm: 82
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [Intro]

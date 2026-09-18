@@ -10,6 +10,7 @@ scrollAdjust: 1.1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/mystery-jets/someone-purer-chords-1146372'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Mystery Jets- Someone Purer

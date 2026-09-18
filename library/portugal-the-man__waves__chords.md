@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/portugal-the-man/waves-chords-1251838'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 WAVES

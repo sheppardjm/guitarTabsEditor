@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/margot-the-nuclear-so-and-sos/jen-is-bringin-the-drugs-chords-1413949
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Verse]

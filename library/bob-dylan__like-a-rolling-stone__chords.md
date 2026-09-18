@@ -11,6 +11,33 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/bob-dylan/like-a-rolling-stone-chords-371756
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Suggested Pattern
+    bpm: 96
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Alternative
+    bpm: 96
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
 ---
 
 Like A Rolling Stone

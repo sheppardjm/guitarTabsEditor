@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/feist/any-party-chords-1988773'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Feist Any Party (Pleasure 2017)

@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/3-doors-down/here-without-you-tabs-92688'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 3 Doors Down - Here without you - Away From The Sun 

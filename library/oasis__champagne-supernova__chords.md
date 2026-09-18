@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/oasis/champagne-supernova-chords-6091'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 75
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 Champagne Supernova

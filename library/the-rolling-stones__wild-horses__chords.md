@@ -11,6 +11,28 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-rolling-stones/wild-horses-chords-4017
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 72
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
 ---
 
 [Intro]

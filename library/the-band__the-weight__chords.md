@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-band/the-weight-chords-2064471'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Verse
+    bpm: 145
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
 ---
 
 The Weight - The Band

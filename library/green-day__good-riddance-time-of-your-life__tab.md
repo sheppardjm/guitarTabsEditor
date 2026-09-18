@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/green-day/good-riddance-time-of-your-life-tabs-12816
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Green Day: Good Riddance(Time of Your Life).

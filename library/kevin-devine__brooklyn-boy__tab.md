@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kevin-devine/brooklyn-boy-tabs-859041'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Note: When playing each chord, strum the bass note (the lowest string) once before 

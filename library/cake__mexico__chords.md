@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/cake/mexico-chords-1840141'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Mexico Chords

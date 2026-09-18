@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kevin-devine/cotton-crush-chords-205409'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -------------------------------------------------------------------------------

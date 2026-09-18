@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kevin-devine/carnival-tabs-767951'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Carnival will be on "My Brothers Blood" coming out in march.  this tab is for his live

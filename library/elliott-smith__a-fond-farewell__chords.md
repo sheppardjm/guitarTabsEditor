@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/a-fond-farewell-chords-1028037
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Elliot Smith - Fond Farewell Chords

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/manchester-orchestra/play-it-again-sam-you-dont-have-any-feathers-tabs-720834
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 -------------------------------------------------------------------------------

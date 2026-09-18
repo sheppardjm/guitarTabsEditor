@@ -10,6 +10,19 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/mystery-jets/luminescence-chords-1485979'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 40
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [tab]Mystery Jets-Luminescence

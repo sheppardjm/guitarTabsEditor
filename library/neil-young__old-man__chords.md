@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/neil-young/old-man-chords-1693691'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 F/D (5th Fret): 000560  

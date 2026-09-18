@@ -10,6 +10,49 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/third-eye-blind/jumper-chords-934945'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Main Pattern
+    bpm: 91
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: Variation
+    bpm: 91
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [Chorus]

@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/brand-new/good-man-chords-330013'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 The strumming patterns are pretty simple, sort of like Play Crack The

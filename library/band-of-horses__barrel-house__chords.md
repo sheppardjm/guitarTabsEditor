@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/band-of-horses/barrel-house-chords-1877091
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Another cool song from the new album. I tend to play a C/G for the C to get some bass drone in there.

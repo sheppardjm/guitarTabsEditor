@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/all-cleaned-out-chords-1139665
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Elliott Smith - All Cleaned Out

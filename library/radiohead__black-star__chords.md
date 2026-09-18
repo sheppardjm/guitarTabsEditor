@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/radiohead/black-star-chords-102857'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Intro, Instrumental, Outro'
+    bpm: 80
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 Artist: Radiohead

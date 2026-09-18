@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/johnny-cash/in-my-life-chords-277727'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Entire Song
+    bpm: 85
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 In My Life - Johnny Cash

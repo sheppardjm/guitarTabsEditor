@@ -11,6 +11,41 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/neutral-milk-hotel/two-headed-boy-part-two-chords-514645
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: When the following chord is the same
+    bpm: 91
+    division: 16
+    triplet: false
+    strokes:
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+  - part: When the following chord is different
+    bpm: 91
+    division: 16
+    triplet: false
+    strokes:
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 202
+      - 3
+      - 101
+      - 1
+      - 101
 ---
 
 Standard tuning. Capo on 1st fret. All chord shapes relative to this.

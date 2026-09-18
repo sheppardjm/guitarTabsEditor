@@ -10,6 +10,20 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/cosmonauts/party-at-sunday-chords-4234360'
 addedAt: '2026-09-18'
 status: ok
+strumming:
+  - part: ''
+    bpm: 150
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [Intro]

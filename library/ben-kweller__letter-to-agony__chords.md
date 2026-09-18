@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/ben-kweller/letter-to-agony-chords-5888282
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Verse]

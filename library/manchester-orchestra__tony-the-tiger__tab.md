@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/manchester-orchestra/tony-the-tiger-tabs-892412
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 This song is played with two guitars but can easly be done with one. Mostly power chords 

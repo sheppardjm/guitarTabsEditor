@@ -11,6 +11,21 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-avett-brothers/no-hard-feelings-chords-1856008
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Whole song
+    bpm: 142
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

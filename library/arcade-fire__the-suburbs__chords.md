@@ -10,6 +10,24 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/arcade-fire/the-suburbs-chords-955435'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Throughout
+    bpm: 118
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

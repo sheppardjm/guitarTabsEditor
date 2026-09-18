@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/daniel-johnston/true-love-will-find-you-in-the-end-chords-438749
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 120
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 [Intro]

@@ -11,6 +11,46 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/misc-soundtrack/barbie-im-just-ken-chords-4863341
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Verse 1, Chorus, Outro'
+    bpm: 70
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+  - part: Verse 2
+    bpm: 150
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+  - part: Bridge
+    bpm: 170
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 [Verse 1]

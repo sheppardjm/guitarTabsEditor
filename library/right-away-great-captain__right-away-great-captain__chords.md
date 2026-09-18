@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/right-away-great-captain/right-away-great-captain-chords-678409
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Chords

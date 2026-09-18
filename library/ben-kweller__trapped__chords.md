@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/ben-kweller/trapped-chords-5821256'
 addedAt: '2026-08-27'
 status: ok
+strumming: []
 ---
 
 [Verse 1]

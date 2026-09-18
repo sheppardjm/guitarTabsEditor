@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/father-john-misty/just-dumb-enough-to-try-chords-2371211
 addedAt: '2026-09-18'
 status: ok
+strumming: []
 ---
 
 [Verse 1]

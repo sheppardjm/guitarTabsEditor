@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/band-of-horses/lying-under-oak-chords-1860289
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Verse 1]

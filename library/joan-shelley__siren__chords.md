@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/joan-shelley/siren-chords-1930835'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [tab][ch]C[/ch]                  [ch]Am[/ch]                   [ch]C[/ch]

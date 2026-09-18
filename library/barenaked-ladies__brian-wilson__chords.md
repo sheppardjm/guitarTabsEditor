@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/barenaked-ladies/brian-wilson-chords-20547
 addedAt: '2026-08-27'
 status: ok
+strumming: []
 ---
 
 Barenaked Ladies - Brian Wilson

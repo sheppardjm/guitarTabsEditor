@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-calling/wherever-you-will-go-chords-37465
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 112
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 101
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [tab][Intro]

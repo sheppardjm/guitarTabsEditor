@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/the-shins/its-only-life-chords-1131329'
 addedAt: '2026-09-18'
 status: ok
+strumming: []
 ---
 
 The Shins - It's only life

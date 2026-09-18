@@ -10,6 +10,36 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bon-iver/flume-chords-787697'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 132
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 3
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 3
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 3
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 Tune down 1/4 step to match the album version.

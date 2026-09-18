@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/gary-jules/mad-world-tabs-126232'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Gary Jules - Mad World

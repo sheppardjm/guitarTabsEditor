@@ -11,6 +11,21 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/between-the-bars-chords-780945
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 138
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 This is not exactly as it's supposed to be played, but it's the same chords in the 

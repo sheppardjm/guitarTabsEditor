@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kevin-devine/whistling-dixie-tabs-844356'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 This is played throughout the whole song:

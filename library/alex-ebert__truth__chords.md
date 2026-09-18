@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/alex-ebert/truth-chords-1421186'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Truth - Alexander Ebert

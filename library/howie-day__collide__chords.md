@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/howie-day/collide-chords-800368'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Intro, Verse, Chorus, Ending'
+    bpm: 90
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
 ---
 
 Capo 3

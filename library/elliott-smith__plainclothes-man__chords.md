@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/plainclothes-man-chords-1038097
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 A great Elliott Smith song from Heatmiser's Mic City Sons. I believe that

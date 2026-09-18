@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/arcade-fire/windowsill-tabs-486141'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 my first tab ever. also a kick ass song by arcade fire. go buy their new album

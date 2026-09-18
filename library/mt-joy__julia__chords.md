@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/mt-joy/julia-chords-2442711'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Chorus
+    bpm: 82
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 101
+      - 203
+      - 101
+      - 202
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [Verse 1]

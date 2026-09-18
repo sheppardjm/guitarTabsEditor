@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/manchester-orchestra/i-can-feel-your-pain-chords-529585
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 The strumming is pretty easy to get by listening to the song.

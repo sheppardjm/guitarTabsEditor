@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/youth-lagoon/highway-patrol-stun-gun-chords-1782830
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Song: Highway Patrol Stun Gun

@@ -10,6 +10,82 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/kaleo/all-the-pretty-girls-chords-1513523'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Basic Pattern
+    bpm: 150
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+  - part: Verse (part 1)
+    bpm: 150
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+  - part: Verse (part 2)
+    bpm: 150
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 202
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 202
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 (Played with capo on the 1st fret)

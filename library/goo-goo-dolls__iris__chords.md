@@ -10,6 +10,45 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/goo-goo-dolls/iris-chords-54512'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: 'Intro, Interlude after 1st Chorus'
+    bpm: 154
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
+  - part: 'Verse, Chorus'
+    bpm: 154
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 202
+      - 101
+      - 1
+      - 101
 ---
 
 [Note]

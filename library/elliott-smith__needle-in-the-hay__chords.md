@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/needle-in-the-hay-chords-84527
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: all
+    bpm: 116
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
 ---
 
 Tabbed by Jon Riley (www.leftoutkid.fsnet.co.uk)

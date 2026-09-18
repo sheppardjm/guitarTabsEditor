@@ -11,6 +11,20 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/kevin-devine/whistling-dixie-chords-4383887
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 108
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
+      - 1
 ---
 
 WHISTLING DIXIE

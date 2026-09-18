@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/phosphorescent/song-for-zula-chords-1206473
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Verse 1]

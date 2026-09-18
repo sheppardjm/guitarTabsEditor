@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/brand-new/degausser-chords-1714627'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 The chords in parenthesis aren't necessary, but I think they sound okay if you wanna change it up.

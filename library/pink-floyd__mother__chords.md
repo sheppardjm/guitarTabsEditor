@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/pink-floyd/mother-chords-44578'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Mother - Pink Floyd

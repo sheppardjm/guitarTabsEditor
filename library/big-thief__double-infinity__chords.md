@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/big-thief/double-infinity-chords-5937899'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 130
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 202
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 101
 ---
 
 [Intro]

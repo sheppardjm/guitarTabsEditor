@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/rascal-flatts/bless-the-broken-road-chords-162352
 addedAt: '2026-09-18'
 status: ok
+strumming: []
 ---
 
 [Intro]

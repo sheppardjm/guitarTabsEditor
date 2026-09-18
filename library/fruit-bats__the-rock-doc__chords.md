@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/fruit-bats/the-rock-doc-chords-2561730'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: All
+    bpm: 120
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 201
+      - 201
+      - 201
+      - 1
+      - 201
+      - 201
+      - 101
+      - 201
+      - 101
+      - 201
+      - 101
+      - 1
+      - 101
+      - 1
+      - 101
 ---
 
 CHORUS IS IN 7/4 METER

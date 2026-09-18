@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/brand-new/jaws-theme-swimming-tabs-92003'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 hey its punkdude969 well here

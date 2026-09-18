@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-rolling-stones/you-cant-always-get-what-you-want-chords-1089344
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 You Can't Always Get What You Want chords

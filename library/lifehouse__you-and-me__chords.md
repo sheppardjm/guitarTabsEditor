@@ -10,6 +10,18 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/lifehouse/you-and-me-chords-807314'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Intro
+    bpm: 140
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 103
+      - 1
+      - 101
 ---
 
 You And Me

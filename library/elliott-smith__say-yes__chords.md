@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/elliott-smith/say-yes-chords-930394'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Main Pattern
+    bpm: 77
+    division: 16
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
+      - 1
+      - 202
+      - 1
+      - 202
+      - 3
+      - 202
+      - 1
+      - 101
 ---
 
 D tuning (DGCFAd)

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/manchester-orchestra/sleeper-1972-tabs-888322
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 I'm 100% sure this tab is right. This is EXACTTLY what he does on Manchester 

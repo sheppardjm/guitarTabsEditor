@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/staind/everything-changes-chords-1088675'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [tab][ch]E[/ch]:

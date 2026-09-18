@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/elliott-smith/ballad-of-big-nothing-chords-1054254
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 [Intro]

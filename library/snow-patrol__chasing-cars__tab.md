@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/snow-patrol/chasing-cars-tabs-349718'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 It may be easier to play the main riff using the open D string but that note is 

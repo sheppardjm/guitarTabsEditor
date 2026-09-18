@@ -10,6 +10,28 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/bon-iver/for-emma-chords-822704'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: Whole Song
+    bpm: 111
+    division: 8
+    triplet: false
+    strokes:
+      - 1
+      - 202
+      - 2
+      - 101
+      - 1
+      - 202
+      - 2
+      - 101
+      - 1
+      - 202
+      - 2
+      - 101
+      - 1
+      - 202
+      - 2
+      - 101
 ---
 
 [ch]C/G[/ch]     (332010)

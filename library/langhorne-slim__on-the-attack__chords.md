@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/langhorne-slim/on-the-attack-chords-1487380
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 CAPO: 4

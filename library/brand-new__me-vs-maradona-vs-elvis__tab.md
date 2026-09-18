@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/brand-new/me-vs-maradona-vs-elvis-tabs-115941
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Tabbed by: Andy Colich

@@ -10,6 +10,7 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/elliott-smith/no-name-1-chords-2962889'
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 No Name #1 - Elliott Smith

@@ -11,6 +11,7 @@ sourceUrl: >-
   https://tabs.ultimate-guitar.com/tab/the-get-up-kids/campfire-kansas-chords-829872
 addedAt: '2026-08-19'
 status: ok
+strumming: []
 ---
 
 Campfire Kansas - The Get Up Kids
