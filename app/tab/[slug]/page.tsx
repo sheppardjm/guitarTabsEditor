@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTab, listTabs } from "@/lib/library";
+import { ugTabId } from "@/lib/ugParser";
 import TabContent from "@/components/TabContent";
 import TabPlayer from "@/components/TabPlayer";
 
@@ -64,6 +65,14 @@ export default async function TabPage({
           >
             source
           </a>
+        ) : null}
+        {!READONLY && ugTabId(tab.sourceUrl) ? (
+          <Link
+            href={`/tab/${tab.slug}/versions`}
+            className="underline decoration-border-line underline-offset-2 hover:text-foreground"
+          >
+            other versions
+          </Link>
         ) : null}
       </div>
 

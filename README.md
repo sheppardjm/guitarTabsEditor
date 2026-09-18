@@ -52,6 +52,10 @@ status: ok            # ok | stub (stub = content not imported yet)
 - **+ Add tab → Import from URL**: paste an Ultimate Guitar (or FolkChords)
   link and hit Fetch — the form prefills with the parsed tab.
 - Or paste/write content manually.
+- **other versions** (on any Ultimate Guitar song page, local only): lists every
+  other Chords/Tab version of that song on UG, best-voted first. Tap **Add** to
+  import one as a new entry titled "Song (ver N)"; versions already in the
+  library link to their entry instead.
 
 ## Bookmark import
 
