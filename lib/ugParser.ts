@@ -11,7 +11,52 @@ export interface ParsedTab {
   tuning: string | null;
   /** Song length in seconds when the source provides it. */
   durationSec?: number | null;
+  /** Strumming patterns when the source provides them ([] = none listed). */
+  strumming?: StrumPattern[];
   content: string;
+}
+
+/**
+ * One strumming pattern as Ultimate Guitar encodes it. `strokes` holds one
+ * UG stroke code per subdivision slot:
+ *   1 down   2 down muted   3 down accented
+ * 101 up   102 up muted   103 up accented
+ * 201 palm-muted   202 no stroke (let ring)   203 rest
+ * `division` is the note value of a slot (4/8/16); `triplet` makes it a
+ * triplet of that value (3 slots where there would be 2).
+ */
+export interface StrumPattern {
+  part: string;
+  bpm: number;
+  division: 4 | 8 | 16;
+  triplet: boolean;
+  strokes: number[];
+}
+
+export const STRUM_CODES = new Set([1, 2, 3, 101, 102, 103, 201, 202, 203]);
+
+export function coerceStrumPatterns(raw: unknown): StrumPattern[] | null {
+  if (!Array.isArray(raw)) return null;
+  const out: StrumPattern[] = [];
+  for (const p of raw as Record<string, unknown>[]) {
+    if (!p || typeof p !== "object") continue;
+    const bpm = Number(p.bpm);
+    const division = Number(p.division);
+    const strokes = Array.isArray(p.strokes)
+      ? p.strokes.map(Number).filter((c) => STRUM_CODES.has(c))
+      : [];
+    if (!Number.isFinite(bpm) || bpm <= 0) continue;
+    if (division !== 4 && division !== 8 && division !== 16) continue;
+    if (!strokes.length) continue;
+    out.push({
+      part: typeof p.part === "string" ? p.part : "",
+      bpm: Math.round(bpm),
+      division,
+      triplet: !!p.triplet,
+      strokes,
+    });
+  }
+  return out;
 }
 
 /** One entry from Ultimate Guitar's "versions" list for a song. */
@@ -115,6 +160,24 @@ export async function fetchUgVersions(url: string): Promise<UgVersionList | null
   return parseUgVersions(await res.text());
 }
 
+// UG's tab_view.strummings -> our StrumPattern[] (drops malformed entries).
+function ugStrummings(page: UgRaw): StrumPattern[] {
+  const raw: UgRaw[] = Array.isArray(page?.tab_view?.strummings) ? page.tab_view.strummings : [];
+  return (
+    coerceStrumPatterns(
+      raw.map((s) => ({
+        part: s?.part,
+        bpm: s?.bpm,
+        division: s?.denuminator,
+        triplet: !!s?.is_triplet,
+        strokes: Array.isArray(s?.measures)
+          ? s.measures.map((m: UgRaw) => (typeof m === "number" ? m : m?.measure))
+          : [],
+      }))
+    ) ?? []
+  );
+}
+
 export function parseUgHtml(html: string): ParsedTab | null {
   const page = ugPageData(html);
   const tab = page?.tab;
@@ -145,6 +208,7 @@ export function parseUgHtml(html: string): ParsedTab | null {
     type: rawType.toLowerCase().startsWith("chord") ? "Chords" : "Tab",
     capo,
     tuning,
+    strumming: ugStrummings(page),
     content: body,
   };
 }

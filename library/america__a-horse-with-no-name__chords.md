@@ -10,6 +10,36 @@ scrollAdjust: 1
 sourceUrl: 'https://tabs.ultimate-guitar.com/tab/america/a-horse-with-no-name-chords-59609'
 addedAt: '2026-08-19'
 status: ok
+strumming:
+  - part: ''
+    bpm: 123
+    division: 8
+    triplet: true
+    strokes:
+      - 1
+      - 202
+      - 202
+      - 1
+      - 202
+      - 101
+      - 2
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
+      - 2
+      - 202
+      - 103
+      - 2
+      - 202
+      - 103
+      - 2
+      - 202
+      - 101
+      - 1
+      - 202
+      - 101
 ---
 
 [Intro]

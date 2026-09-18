@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getTab, listTabs } from "@/lib/library";
 import { ugTabId } from "@/lib/ugParser";
+import StrumPlayer from "@/components/StrumPlayer";
 import TabContent from "@/components/TabContent";
 import TabPlayer from "@/components/TabPlayer";
 
@@ -75,6 +76,8 @@ export default async function TabPage({
           </Link>
         ) : null}
       </div>
+
+      {tab.strumming?.length ? <StrumPlayer patterns={tab.strumming} /> : null}
 
       {tab.status === "stub" || !tab.content.trim() ? (
         <div className="rounded-lg border border-border-line bg-surface p-6 text-center">

@@ -46,6 +46,7 @@ export async function saveTabAction(formData: FormData): Promise<void> {
     sourceUrl: str(formData.get("sourceUrl")) || existing?.sourceUrl || null,
     addedAt: existing?.addedAt ?? new Date().toISOString().slice(0, 10),
     status: content.trim() ? "ok" : "stub",
+    strumming: existing?.strumming ?? null,
   };
 
   writeTab(slug, meta, content);
@@ -109,6 +110,7 @@ export async function importVersionAction(formData: FormData): Promise<void> {
     sourceUrl: url,
     addedAt: new Date().toISOString().slice(0, 10),
     status: "ok",
+    strumming: parsed.strumming ?? null,
   };
   writeTab(slug, meta, parsed.content);
   revalidatePath("/");

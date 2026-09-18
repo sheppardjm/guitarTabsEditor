@@ -46,6 +46,10 @@ status: ok            # ok | stub (stub = content not imported yet)
 - **+ / − buttons or ↑ / ↓ keys** nudge the speed live; the multiplier is saved
   per song automatically.
 - **Edit** opens the editor: metadata form + raw content with live preview.
+- **Strumming**: songs whose Ultimate Guitar page lists a strumming pattern
+  show it as arrows above the tab (accents marked `>`, mutes struck through,
+  `pm` = palm mute, `–` = let ring). **Play** loops it with a synthesized
+  strum (Web Audio, so it works offline on the tablet); − / + change tempo.
 
 ## Adding tabs
 
@@ -75,6 +79,14 @@ After a parser fix, re-import entries from one site in place (keeps `addedAt`,
 
 ```bash
 node scripts/import-bookmarks.ts --refetch folkchords.com
+```
+
+Backfill strumming patterns for Ultimate Guitar entries that have never had
+them fetched (only frontmatter changes; content is untouched). UG rate-limits
+bursts, so the script paces itself and backs off on HTTP 429:
+
+```bash
+node scripts/import-bookmarks.ts --strummings
 ```
 
 ### FolkChords chord glyphs

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
+import { coerceStrumPatterns, type StrumPattern } from "./ugParser.ts";
 
 export type TabType = "Chords" | "Tab";
 export type TabStatus = "ok" | "stub";
@@ -17,6 +18,8 @@ export interface TabMeta {
   sourceUrl: string | null;
   addedAt: string;
   status: TabStatus;
+  /** UG strumming patterns; [] = source lists none, null = never fetched. */
+  strumming: StrumPattern[] | null;
 }
 
 export interface TabEntry extends TabMeta {
@@ -75,6 +78,7 @@ function coerceMeta(data: Record<string, unknown>): TabMeta {
         ? data.addedAt
         : new Date().toISOString().slice(0, 10),
     status: data.status === "stub" ? "stub" : "ok",
+    strumming: coerceStrumPatterns(data.strumming),
   };
 }
 

@@ -8,6 +8,10 @@
 //     re-fetches bookmarks whose URL contains the given text (e.g. after a
 //     parser fix) and rewrites the existing library entry in place, keeping
 //     addedAt, bpm and scrollAdjust from the current file.
+//   node scripts/import-bookmarks.ts --strummings
+//     backfill: for Ultimate Guitar entries whose frontmatter has no
+//     `strumming` field yet, fetch the page and store its strumming patterns.
+//     Only the frontmatter changes; content is left exactly as it is.
 
 import fs from "node:fs";
 import os from "node:os";
@@ -20,7 +24,7 @@ import {
   type TabEntry,
   type TabMeta,
 } from "../lib/library.ts";
-import { fetchTabFromUrl, type ParsedTab } from "../lib/ugParser.ts";
+import { fetchTabFromUrl, ugTabId, type ParsedTab } from "../lib/ugParser.ts";
 
 const BOOKMARKS_PATH = path.join(
   os.homedir(),
@@ -106,18 +110,53 @@ const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 async function fetchWithRetries(url: string): Promise<ParsedTab | null> {
   let lastErr: unknown;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 4; attempt++) {
     try {
       return await fetchTabFromUrl(url);
     } catch (e) {
       lastErr = e;
-      if (attempt < 3) await sleep(2000 * attempt);
+      const rateLimited = e instanceof Error && /HTTP 429/.test(e.message);
+      // UG rate-limits bursts; wait it out rather than fail the entry.
+      if (attempt < 4) await sleep(rateLimited ? 20000 * attempt : 2000 * attempt);
     }
   }
   throw lastErr;
 }
 
+// --strummings: fill in the `strumming` frontmatter for UG entries lacking it.
+async function backfillStrummings() {
+  const todo = listTabs().filter((t) => t.strumming === null && ugTabId(t.sourceUrl));
+  console.log(`${todo.length} Ultimate Guitar entries without strumming data`);
+  let withPatterns = 0;
+  let empty = 0;
+  const failures: string[] = [];
+  for (const [i, t] of todo.entries()) {
+    const progress = `[${i + 1}/${todo.length}]`;
+    try {
+      const parsed = await fetchWithRetries(t.sourceUrl!);
+      if (!parsed) throw new Error("no tab content found on page");
+      const strumming = parsed.strumming ?? [];
+      const { slug, content, ...meta } = t;
+      writeTab(slug, { ...meta, strumming }, content);
+      if (strumming.length) withPatterns++;
+      else empty++;
+      console.log(`${progress} ${strumming.length ? "PATTERN" : "none   "} ${t.artist} — ${t.title}`);
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      failures.push(`${t.artist} — ${t.title}: ${msg}`);
+      console.log(`${progress} FAIL    ${t.artist} — ${t.title} (${msg})`);
+    }
+    await sleep(2500);
+  }
+  console.log("\n=== Strumming backfill ===");
+  console.log(`With patterns: ${withPatterns}`);
+  console.log(`No patterns:   ${empty}`);
+  console.log(`Failed:        ${failures.length}`);
+  for (const f of failures) console.log(`  - ${f}`);
+}
+
 async function main() {
+  if (process.argv.includes("--strummings")) return backfillStrummings();
   const raw = JSON.parse(fs.readFileSync(BOOKMARKS_PATH, "utf8"));
   let folder: any = null;
   for (const root of Object.values<any>(raw.roots)) {
@@ -190,6 +229,7 @@ async function main() {
       scrollAdjust: existing?.scrollAdjust ?? 1.0,
       sourceUrl: bm.url,
       addedAt: existing?.addedAt ?? new Date().toISOString().slice(0, 10),
+      strumming: parsed?.strumming ?? existing?.strumming ?? null,
     };
 
     if (parsed) {
